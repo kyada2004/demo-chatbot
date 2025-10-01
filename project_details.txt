@@ -1,0 +1,31 @@
+Project built by: Ayush Kyada
+Year: 2025
+
+# Project Details: Jenny AI Chatbot
+
+## Description
+Jenny is a desktop AI chatbot application with a graphical user interface (GUI), voice interaction capabilities, and a wide range of features designed to assist users with various tasks.
+
+## Core Technologies
+- **Programming Language:** Python
+- **GUI:** `customtkinter`
+- **AI and Language:** `g4f` for AI responses, `langdetect` and `deep_translator` for language handling.
+- **Speech:** `speech_recognition` for voice input, `gTTS` and `playsound` for text-to-speech output.
+- **Data Persistence:** `sqlite3` for database storage.
+
+## Key Features
+- **Conversational AI:** Engages in natural language conversations with a distinct personality defined in `ai_brain.md`.
+- **Voice Commands:** Accepts voice commands and provides spoken responses.
+- **User Authentication:** Supports user registration and login to maintain session and preferences.
+- **Chat History:** Stores and displays chat history for logged-in users.
+- **Hybrid Intent System:**
+    - **Keyword-based:** For fast and accurate recognition of simple commands.
+    - **AI Planner:** For understanding and executing complex, multi-step queries.
+- **Spell Checking:** Automatically corrects spelling mistakes in user queries.
+- **Extensible Feature Set:** Includes a variety of built-in features, such as:
+    - **Weather:** Provides weather forecasts.
+    - **Image Generation:** Creates images from text prompts.
+    - **Web Interaction:** Can open websites and perform Google searches.
+    - **Web Research:** Can scrape and summarize web pages.
+    - **File Analysis:** Can read and answer questions about user-uploaded files.
+    - **Personal Assistant:** Manages reminders, plans trips, and tracks user goals.
